@@ -20,7 +20,7 @@
   margin-bottom: 2rem;
 }
 .destacados_panel-imagen {
-  width: 80vw;
+  width: 100vw;
   box-shadow: 0 2px 10px 5px #00000020;
   margin-bottom: 0.5rem;
 }
@@ -33,4 +33,11 @@
   color: var(--botón-rojo);
   border-color: var(--botón-rojo);
   margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  /*! agregado por mi */
+  .destacados_panel-imagen {
+    max-width: 80vw;
+  }
 }
