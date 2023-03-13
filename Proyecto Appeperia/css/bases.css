@@ -51,3 +51,12 @@ body {
   border: 1px solid var(--botón-rojo); /*  llamo a la variable de color  */
   border-radius: 5px;
 }
+
+/* agregado de media */
+
+@media screen and (min-width: 1024px) {
+  .container {
+      padding-left: calc((100% - 940px)/2);
+      padding-right: calc((100% - 940px)/2);
+  }
+}
